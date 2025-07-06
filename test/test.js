@@ -7,10 +7,20 @@
 //   });
 // });
 
- const assertEqual = require('assert');  
-const { multiply } = require('../multiply'); 
+
+
+// const assertEqual = require('assert');  
+// const { multiply } = require('../multiply'); 
+// describe('multiply',()=>{
+//     it('Should return 4 when when we multiply 2 times 2',()=>{
+//         assertEqual(multiply(2, 2),4)
+//     })
+// })
+
+const assertEqual = require('assert');  
+const { multiply } = require('../multiply');
 describe('multiply',()=>{
-    it('Should return 4 when when we multiply 2 times 2',()=>{
-        assertEqual(multiply(2, 2),4)
+    it('should return 9 when we muliply 3 times 3',()=>{
+       assertEqual(multiply(3, 3), 9) 
     })
 })
