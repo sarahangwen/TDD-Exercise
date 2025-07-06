@@ -17,10 +17,22 @@
 //     })
 // })
 
+
+
+// const assertEqual = require('assert');  
+// const { multiply } = require('../multiply');
+// describe('multiply',()=>{
+//     it('should return 9 when we muliply 3 times 3',()=>{
+//        assertEqual(multiply(3, 3), 9) 
+//     })
+// })
+
+
 const assertEqual = require('assert');  
 const { multiply } = require('../multiply');
 describe('multiply',()=>{
-    it('should return 9 when we muliply 3 times 3',()=>{
-       assertEqual(multiply(3, 3), 9) 
+    it('should return 16 when we muliply 4 times 4',()=>{
+       assertEqual(multiply(4, 4), 16) 
     })
 })
+
