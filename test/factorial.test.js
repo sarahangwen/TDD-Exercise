@@ -16,15 +16,18 @@ const { factorial } = require('../factorial');
 //   });
 // })
 
+// describe('factorial', () => {
+//   it('should return 24 for 4!', () => {
+//     assert.strictEqual(factorial(4), 24);
+//   });
+// })
+
+
 describe('factorial', () => {
-  it('should return 24 for 4!', () => {
-    assert.strictEqual(factorial(4), 24);
+  it('should return 120 for 5!', () => {
+    assert.strictEqual(factorial(5), 120);
   });
 })
-
-  // it('should return 120 for 5!', () => {
-  //   assert.strictEqual(factorial(5), 120);
-  // });
 
   // it('should return 3628800 for 10!', () => {
   //   assert.strictEqual(factorial(10), 3628800);
