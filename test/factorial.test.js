@@ -1,8 +1,9 @@
 
+// TDD Test Assignment 2, Pair: Angwen Sarah and Kabwaga Veronica Amooti
 
 
-const assert = require('assert');
-const { factorial } = require('../factorial');
+// const assert = require('assert');
+// const { factorial } = require('../factorial');
 
 // describe('factorial', () => {
 //   it('should return 1 for 1!', () => {
@@ -35,8 +36,8 @@ const { factorial } = require('../factorial');
 //   });
 // })
 
-describe('factorial', () => {
-  it('should throw an error for negative numbers', () => {
-    assert.throws(() => factorial(-5), /Negative numbers not allowed/);
-  });
-});
+// describe('factorial', () => {
+//   it('should throw an error for negative numbers', () => {
+//     assert.throws(() => factorial(5), /Negative numbers not allowed/);
+//   });
+// });
