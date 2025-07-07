@@ -1,6 +1,5 @@
 // const assertEqual = require('assert');  
 // const { multiply } = require('../multiply'); 
-//  ''
 // describe('multiply', () => {
 //   it('Should return 1 when multiplying 1 and 1', () => {
 //     assertEqual(multiply(1, 1), 1);  
@@ -28,11 +27,20 @@
 // })
 
 
-const assertEqual = require('assert');  
+// const assertEqual = require('assert');  
+// const { multiply } = require('../multiply');
+// describe('multiply',()=>{
+//     it('should return 16 when we muliply 4 times 4',()=>{
+//        assertEqual(multiply(4, 4), 16) 
+//     })
+// })
+
+const assertEqual = require('assert');
 const { multiply } = require('../multiply');
-describe('multiply',()=>{
-    it('should return 16 when we muliply 4 times 4',()=>{
-       assertEqual(multiply(4, 4), 16) 
-    })
-})
+
+describe('multiply', () => {
+    it('Should return 1035 when we multiply 23 times 45', () => {
+        assertEqual(multiply(23, 45), 1035);
+    });
+});
 
