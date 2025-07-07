@@ -35,7 +35,8 @@ describe('factorial', () => {
   });
 })
 
-  // it('should throw an error for negative numbers', () => {
-  //   assert.throws(() => factorial(-5), /Negative numbers not allowed/);
-  // });
-// });
+describe('factorial', () => {
+  it('should throw an error for negative numbers', () => {
+    assert.throws(() => factorial(5), /Negative numbers not allowed/);
+  });
+});
