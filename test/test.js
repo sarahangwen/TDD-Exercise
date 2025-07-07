@@ -1,3 +1,10 @@
+//Pair
+//Sarah Angwen and Kabwaga Vereonica
+
+
+
+
+
 // const assertEqual = require('assert');  
 // const { multiply } = require('../multiply'); 
 // describe('multiply', () => {
