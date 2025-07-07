@@ -29,9 +29,11 @@ describe('factorial', () => {
   });
 })
 
-  // it('should return 3628800 for 10!', () => {
-  //   assert.strictEqual(factorial(10), 3628800);
-  // });
+describe('factorial', () => {
+  it('should return 3628800 for 10!', () => {
+    assert.strictEqual(factorial(10), 3628800);
+  });
+})
 
   // it('should throw an error for negative numbers', () => {
   //   assert.throws(() => factorial(-5), /Negative numbers not allowed/);
