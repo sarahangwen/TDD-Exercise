@@ -4,12 +4,11 @@
 
 const assert = require('assert');
 const { factorial } = require('../factorial');
-
-// describe('factorial', () => {
-//   it('factorial(1)= 1', () => {
-//     assert.equal(factorial(1), 1);
-//   });
-// })
+describe('factorial', () => {
+  it('factorial(1)= 1', () => {
+    assert.equal(factorial(1), 1);
+  });
+})
 
 // describe('factorial', () => {
 //   it('factorial(3)=6', () => {
@@ -36,8 +35,8 @@ const { factorial } = require('../factorial');
 //   });
 // })
 
-describe('factorial', () => {
-  it('factorial(-5)', () => {
-    assert.throws(() => factorial(-5), /Negative numbers not allowed/);
-  });
-});
+// describe('factorial', () => {
+//   it('factorial(-5)', () => {
+//     assert.throws(() => factorial(-5), /Negative numbers not allowed/);
+//   });
+// });
