@@ -1,3 +1,4 @@
+// 
 const assert = require('assert');
 const { fibonacci } = require('../fibonacci');
 
@@ -6,12 +7,9 @@ describe('fibonacci', () => {
         assert.equal(fibonacci(1), 1); 
     });
 
-    // it('fibonacci(2) = 3', () => {
-    //     assert.equal(fibonacci(2), 3); 
-    // });
+    it('fibonacci(2) = 3', () => {
+        assert.equal(fibonacci(2), 3); 
+    });
 
-    // it('fibonacci(3) = 2', () => {
-    //     assert.equal(fibonacci(3), 2); 
-    // });
 });
 
