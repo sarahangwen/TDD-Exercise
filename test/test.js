@@ -1,5 +1,6 @@
 //Pair
 //Sarah Angwen and Kabwaga Vereonica
+
 // const assertEqual = require("assert");
 // const { multiply } = require("../multiply");
 // describe("multiply", () => {
@@ -8,11 +9,11 @@
 //   });
 // });
 
-// const assertEqual = require('assert');
+// const assert = require('assert');
 // const { multiply } = require('../multiply');
 // describe('multiply',()=>{
-//     it('Should return 4 when when we multiply 2 times 2',()=>{
-//         assertEqual(multiply(2, 2),4)
+//     it('multiply(2, 2)=4',()=>{
+//         assert.equal(multiply(2, 2),4)
 //     })
 // })
 

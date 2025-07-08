@@ -2,42 +2,42 @@
 // TDD Test Assignment 2, Pair: Angwen Sarah and Kabwaga Veronica Amooti
 
 
-// const assert = require('assert');
-// const { factorial } = require('../factorial');
+const assert = require('assert');
+const { factorial } = require('../factorial');
 
 // describe('factorial', () => {
-//   it('should return 1 for 1!', () => {
-//     assert.strictEqual(factorial(1), 1);
+//   it('factorial(1)= 1', () => {
+//     assert.equal(factorial(1), 1);
 //   });
 // })
 
 // describe('factorial', () => {
-//   it('should return 6 for 3!', () => {
-//     assert.strictEqual(factorial(3), 6);
+//   it('factorial(3)=6', () => {
+//     assert.equal(factorial(3), 6);
 //   });
 // })
 
 // describe('factorial', () => {
-//   it('should return 24 for 4!', () => {
-//     assert.strictEqual(factorial(4), 24);
+//   it('factorial(4)=24', () => {
+//     assert.equal(factorial(4), 24);
 //   });
 // })
 
 
 // describe('factorial', () => {
-//   it('should return 120 for 5!', () => {
-//     assert.strictEqual(factorial(5), 120);
+//   it('factorial(5)=120', () => {
+//     assert.equal(factorial(5), 120);
 //   });
 // })
 
 // describe('factorial', () => {
-//   it('should return 3628800 for 10!', () => {
-//     assert.strictEqual(factorial(10), 3628800);
+//   it('factorial(10)=3628800', () => {
+//     assert.equal(factorial(10), 3628800);
 //   });
 // })
 
-// describe('factorial', () => {
-//   it('should throw an error for negative numbers', () => {
-//     assert.throws(() => factorial(5), /Negative numbers not allowed/);
-//   });
-// });
+describe('factorial', () => {
+  it('factorial(-5)', () => {
+    assert.throws(() => factorial(-5), /Negative numbers not allowed/);
+  });
+});
