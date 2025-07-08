@@ -1,15 +1,14 @@
-//Pair
-//Sarah Angwen and Kabwaga Vereonica
+//TDD Test Assignment 1, Pair: Angwen Sarah and Kabwaga Veronica Amooti
 
-const assert = require("assert");
-const { multiply } = require("../multiply");
-describe("multiply", () => {
-  it("multiply(1, 1)=1", () => {
-    assert.equal(multiply(1, 1), 1);
-  });
-});
+// const assert = require("assert");
+// const { multiply } = require("../multiply");
+// describe("multiply", () => {
+//   it("multiply(1, 1)=1", () => {
+//     assert.equal(multiply(1, 1), 1);
+//   });
+// });
 
-// const assert = require('assert');
+// // const assert = require('assert');
 // const { multiply } = require('../multiply');
 // describe('multiply',()=>{
 //     it('multiply(2, 2)=4',()=>{
