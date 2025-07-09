@@ -1,3 +1,5 @@
+// Pair: Angwen Sarah and Kabwaga Veronica Amooti
+
 // const assert = require("assert");
 // const { factorial } = require("../factorial");
 
