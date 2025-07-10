@@ -7,9 +7,9 @@ describe('calculateTax', () => {
     assert.equal(calculateTax(10000), 0);
   });
 
-//   it('calculateTax(20000), (20000 - 12000) * 0.2', () => {
-//   assert.equal(calculateTax(20000), (20000 - 12000) * 0.2); 
-// });
+  it('calculateTax(20000), (20000 - 12000) * 0.2', () => {
+  assert.equal(calculateTax(20000), (20000 - 12000) * 0.2); 
+});
 
 //   it('calculateTax(income)=tax', () => {
 //   const income = 50000;
