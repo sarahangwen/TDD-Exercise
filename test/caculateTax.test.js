@@ -11,9 +11,9 @@ describe('calculateTax', () => {
   assert.equal(calculateTax(20000), (20000 - 12000) * 0.2); 
 });
 
-//   it('calculateTax(income)=tax', () => {
-//   const income = 50000;
-//   const tax = (36000 - 12000) * 0.2 + (50000 - 36000) * 0.4; 
-//   assert.equal(calculateTax(income), tax);
-//   });
+  it('calculateTax(income)=tax', () => {
+  const income = 50000;
+  const tax = (36000 - 12000) * 0.2 + (50000 - 36000) * 0.4; 
+  assert.equal(calculateTax(income), tax);
+  });
 });
